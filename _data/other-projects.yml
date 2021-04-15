@@ -1,4 +1,4 @@
-- name: Intelligent Advisor - CX Sales and B2B Service Connector
+- name: Intelligent Advisor - <br/> CX Sales and B2B Service Connector
   url: https://docs.oracle.com/en/cloud/saas/b2b-service/21b/faiec/integrate-with-intelligent-advisor.html
   description: Re-architecture of legacy connector between Oracle Intelligent Advisor and CX Sales B2B Service from monolith deployment to a scalable, multi-tenant, cloud native app for performance optimization, using Helidon Microprofile, JAX-RS and JAX-WS frameworks.
   points:
