@@ -11,16 +11,16 @@ resume: https://abhi1401.github.io/resume.pdf
 social:
   - title: email
     url: mailto:abhishek.mvr@outlook.com
-  - title: twitter
-    url: https://twitter.com/abhi1401
-  - title: instagram
-    url: https://instagram.com/abhi1401
-  - title: codepen
-    url: http://codepen.io/abhi1401
   - title: github
     url: https://github.com/abhi1401
+  - title: codepen
+    url: http://codepen.io/abhi1401
   - title: linkedin
-    url: https://www.linkedin.com/in/abhi1401
+    url: https://www.linkedin.com/in/abhishek-c
+  - title: hackerrank
+    url: https://www.hackerrank.com/abhi1401
+  - title: strava
+    url: https://www.strava.com/athletes/35910654
 
 # Build settings
 markdown: kramdown

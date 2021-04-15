@@ -1,10 +1,7 @@
-# v3
+# Portfolio website
 
-Third iteration of my personal website built with Jekyll.
-
-> 📢 **PSA for those who want to fork or copy this repo and use it for their own site:**
->
-> Please be a decent person and give me proper credit by linking back to my website! Refer to this handy [quora post](https://www.quora.com/Is-it-bad-to-copy-other-peoples-code) if you're not sure.
+This is source for my personal website, developed using Jekyll and deployed using github pages. 
+The website was originally designed and developed by [Brittany Chiang](https://github.com/bchiang7/bchiang7.github.io), which I mercilessly forked and edited 😬. If you are interested in web development, make sure to check her page for much more awesome projects.
 
 ## Dependencies
 

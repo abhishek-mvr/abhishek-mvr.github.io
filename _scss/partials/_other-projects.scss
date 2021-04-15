@@ -5,7 +5,10 @@
     &__name {
       margin-bottom: 10px;
     }
-    p {
+    &__points {
+      font-size: 0.9rem;
+    }
+    &__description {
       font-size: 0.9rem;
       margin-bottom: 20px;
     }

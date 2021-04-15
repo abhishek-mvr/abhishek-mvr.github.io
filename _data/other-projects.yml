@@ -1,11 +1,17 @@
-- name: Personal Website V2
-  url: https://abhi1401.github.io
-  code: https://github.com/abhi1401/abhi1401.github.io
-  description: Second iteration of my personal website. Designed and developed with a conscious effort to avoid using any superfluous frameworks like Bootstrap.
+- name: Intelligent Advisor - CX Sales and B2B Service Connector
+  url: https://docs.oracle.com/en/cloud/saas/b2b-service/21b/faiec/integrate-with-intelligent-advisor.html
+  description: Re-architecture of legacy connector between Oracle Intelligent Advisor and CX Sales B2B Service from monolith deployment to a scalable, multi-tenant, cloud native app for performance optimization, using Helidon Microprofile, JAX-RS and JAX-WS frameworks.
+  points:
+    - Implementation of kafka for messaging/storage channel between helidon microservices.
+    - Implemented containerised mock REST server for integration testing and packaged/deployed to k8 infra with helm.
+    - Developed and maintained Jenkins pipelines to integrate dev workflow with build(Gradle, Maven), static code scan (SonarQube, Fortify ), integration tests, package, publish and deploy microservices to Kubernetes cluster in Oracle Cloud Infrastructure (OCI).
   used:
-    - thing: Jekyll
-    - thing: Handlebars
-    - thing: SCSS
-    - thing: JavaScript
-    - thing: Github Pages
+    - thing: Helidon
+    - thing: JAX-RS
+    - thing: JAX-WS
+    - thing: Microservices
+    - thing: Kafka
+    - thing: Kubernetes
+    - thing: OCI
+    - thing: Gradle
 
