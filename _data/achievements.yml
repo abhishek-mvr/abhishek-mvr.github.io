@@ -1,0 +1,11 @@
+- title: 🏅 Finalist - CX HyperConnect Hackathon
+  description: Designed a generic connector aiming to leverage capabilities of Intelligent Advisor across the CX pillars and throughout customer experience by providing the flexibility to add new integrations. 
+  used:
+    - thing: Helidon
+    - thing: JAX-RS
+    - thing: JAX-WS
+    - thing: Microservices
+    - thing: Kafka
+    - thing: Kubernetes
+    - thing: Gradle
+    - thing: git

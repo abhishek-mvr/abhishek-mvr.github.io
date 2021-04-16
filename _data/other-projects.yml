@@ -14,4 +14,17 @@
     - thing: Kubernetes
     - thing: OCI
     - thing: Gradle
+    - thing: git
+
+- name: Intelligent Advisor adapter<br/> for Oracle Integration Cloud
+  url: https://docs.oracle.com/en/cloud/paas/integration-cloud/opa-adapter/understand-intelligent-advisor-oracle-policy-automation-adapter.html
+  description: The Oracle Intelligent Advisor Adapter can be used to develop integrations in Oracle Integration that load and save the data between Intelligent Advisor platform and other applications/services.
+  points:
+    - Implementation of dynamic data loading.
+    - Implementation of adapter Endpoint metrics.
+  used:
+    - thing: Java Connector Architecture
+    - thing: adapter
+    - thing: Gradle
+    - thing: git
 
