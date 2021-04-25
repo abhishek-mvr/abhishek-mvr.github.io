@@ -1,0 +1,33 @@
+- name: Intelligent Advisor - CX Sales and B2B Service Connector
+  url: https://docs.oracle.com/en/cloud/saas/b2b-service/21b/faiec/integrate-with-intelligent-advisor.html
+  description: Re-architecture of legacy connector between Oracle Intelligent Advisor and CX Sales B2B Service from monolith deployment to a scalable, multi-tenant, cloud native app for performance optimization, using Helidon Microprofile, JAX-RS and JAX-WS frameworks.
+  points:
+    - Implemented containerised mock REST server for integration testing and packaged/deployed to k8 infra with helm.
+    - Developed and maintained Jenkins pipelines to integrate dev workflow with build(Gradle, Maven), static code scan (SonarQube, Fortify ), integration tests, package, publish and deploy microservices to Kubernetes cluster in Oracle Cloud Infrastructure (OCI).
+    - Kafka for messaging/storage channel between helidon microservices.
+    - JWT based authentication for REST endpoints.
+    - Implementation of Checkpoint and CheckAlive operations.
+    - Performance enhancements by incorporating batch calls, bundling multiple stages together, etc.
+  used:
+    - thing: Helidon
+    - thing: JAX-RS
+    - thing: JAX-WS
+    - thing: Microservices
+    - thing: Kafka
+    - thing: Kubernetes
+    - thing: OCI
+    - thing: Gradle
+    - thing: git
+
+- name: Intelligent Advisor adapter for Oracle Integration Cloud
+  url: https://docs.oracle.com/en/cloud/paas/integration-cloud/opa-adapter/understand-intelligent-advisor-oracle-policy-automation-adapter.html
+  description: The Oracle Intelligent Advisor Adapter can be used to develop integrations in Oracle Integration that load and save the data between Intelligent Advisor platform and other applications/services.
+  points:
+    - Implementation of dynamic data loading.
+    - Implementation of adapter Endpoint metrics.
+  used:
+    - thing: Java Connector Architecture
+    - thing: adapter
+    - thing: Gradle
+    - thing: git
+

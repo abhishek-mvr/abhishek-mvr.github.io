@@ -1,33 +1,19 @@
-- name: Intelligent Advisor - <br/> CX Sales and B2B Service Connector
-  url: https://docs.oracle.com/en/cloud/saas/b2b-service/21b/faiec/integrate-with-intelligent-advisor.html
-  description: Re-architecture of legacy connector between Oracle Intelligent Advisor and CX Sales B2B Service from monolith deployment to a scalable, multi-tenant, cloud native app for performance optimization, using Helidon Microprofile, JAX-RS and JAX-WS frameworks.
+- name: Aleida
+  url: http://abhic.me/aleida/
+  description: An application which detect botnet traffic in a private organisation network without reading network traffic but only analysing network behaviour. Uses KMeans Clustering for detecting normal and abnormal PCs. Aleida was developed on Microsoft .NET Core Platform as a web and console application.
   points:
-    - Implemented containerised mock REST server for integration testing and packaged/deployed to k8 infra with helm.
-    - Developed and maintained Jenkins pipelines to integrate dev workflow with build(Gradle, Maven), static code scan (SonarQube, Fortify ), integration tests, package, publish and deploy microservices to Kubernetes cluster in Oracle Cloud Infrastructure (OCI).
-    - Kafka for messaging/storage channel between helidon microservices.
-    - JWT based authentication for REST endpoints.
-    - Implementation of Checkpoint and CheckAlive operations.
-    - Performance enhancements by incorporating batch calls, bundling multiple stages together, etc.
   used:
-    - thing: Helidon
-    - thing: JAX-RS
-    - thing: JAX-WS
-    - thing: Microservices
-    - thing: Kafka
-    - thing: Kubernetes
-    - thing: OCI
-    - thing: Gradle
+    - thing: .NET Core
+    - thing: C#
     - thing: git
 
-- name: Intelligent Advisor adapter<br/> for Oracle Integration Cloud
-  url: https://docs.oracle.com/en/cloud/paas/integration-cloud/opa-adapter/understand-intelligent-advisor-oracle-policy-automation-adapter.html
-  description: The Oracle Intelligent Advisor Adapter can be used to develop integrations in Oracle Integration that load and save the data between Intelligent Advisor platform and other applications/services.
-  points:
-    - Implementation of dynamic data loading.
-    - Implementation of adapter Endpoint metrics.
+- name: ShareMyRide
+  url: https://github.com/abhi1401/reimagined-train
+  description: A web application that makes city to city travel affordable and easy through sharing of vehicle. Front end was developed using HTML, JavaScript, AJAX, JQuery and CSS. Used php for back end development to connect with SQL Server. Used Google Places API for providing auto-completion, maps and directions. Integrated login authentications through social accounts such as Google and Facebook.
   used:
-    - thing: Java Connector Architecture
-    - thing: adapter
-    - thing: Gradle
-    - thing: git
+    - thing: HTML
+    - thing: Js
+    - thing: JQuery
+    - thing: PHP
+    - thing: SQL
 
