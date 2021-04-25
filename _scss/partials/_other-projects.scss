@@ -4,6 +4,12 @@
     margin-bottom: 50px;
     &__name {
       margin-bottom: 10px;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      &:hover {
+        font-size: 16px;
+      }
     }
     &__points {
       font-size: 0.9rem;
@@ -28,6 +34,11 @@
           margin-left: 0;
         }
       }
+    }
+    .project__content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out;
     }
   }
 }
