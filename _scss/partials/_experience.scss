@@ -3,7 +3,7 @@
     margin-bottom: 50px;
   }
   .job {
-    margin-bottom: 25px;
+    margin-bottom: 100px;
     .time-place {
       display: flex;
       justify-content: space-between;
@@ -13,10 +13,11 @@
     }
     &__company {
       font-weight: 700;
+      font-size: 1.1rem;
     }
     &__description  {
       font-size: 0.9rem;
-      margin-bottom: 20px;
+      margin-bottom: 40px;
     }
     &__position {
       margin-bottom: 10px;
@@ -42,7 +43,7 @@
       outline: none;
       font-size: .9rem;
       &:hover {
-        font-size: .9rem;
+        font-size: .95rem;
       }
       &:after {
         content: '\002B';
