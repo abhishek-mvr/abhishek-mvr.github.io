@@ -1,44 +1,66 @@
-- company: Thoughtworks 🎉
+- company: Thoughtworks
   url: https://www.thoughtworks.com/
   time: June 2021 - Present
-  position: Application Developer
-  description: 
+
+  positions: 
+    - title: Application Developer
+      description: Worked on different projects related to a Retail Fulfillment platform serving more than 650 fulfillment centers with more than 250k orders each day. 
+      projects:
+        - name: Retail Grocery delivery platform
+          description: Worked on different projects related to a Retail Fulfillment platform serving more than 650 fulfillment centers with more than 250k orders each day. 
+          points:
+            - Played a major role in scaling application from serving 36 fulfillment stores to 700+ stores consuming more than 450k order info ( fresh orders and amendments ) daily.
+            - Restructured event consumption flows to reduce traffic by 99.5%
+            - Redesigned Kafka event consumption flow to nullify consumer lag.
+            - Feature developments and defect fixes while maintaining operational efficiency.
+            - Collaborate to identify performance bottlenecks in APIs, and resolve the same.
+            - Developed docker based infra for automation suite.
+          used:
+            - thing: couchbase
+            - thing: Kafka
+            - thing: Splunk
+            - thing: Jenkins
+            - thing: AMQP
+            - thing: resilience4J
+            - thing: Spring
+            - thing: Java17
 
 - company: Oracle
   url: https://www.oracle.com/
   time: June 2018 - June 2021
-  position: Application Engineer
-  description: Worked on multiple multi-tenant enterprise applications, delivering features in efficient maintainable code using Java.
-  projects:
-    - name: Intelligent Advisor - CX Sales and B2B Service Connector
-      url: https://docs.oracle.com/en/cloud/saas/b2b-service/21b/faiec/integrate-with-intelligent-advisor.html
-      description: Re-architecture of legacy connector between Oracle Intelligent Advisor and CX Sales B2B Service from monolith deployment to a scalable, multi-tenant, cloud native app for performance optimization, using Helidon Microprofile, JAX-RS and JAX-WS frameworks.
-      points:
-        - Implemented containerised mock REST server for integration testing and packaged/deployed to k8 infra with helm.
-        - Developed and maintained Jenkins pipelines to integrate dev workflow with build, static code scan, integration tests, package, publish and deploy to multiple Kubernetes namespaces in Oracle Cloud Infrastructure (OCI).
-        - Implemented a distributed test environment in Kubernetes for PSR testing.
-        - JWT based authentication for REST endpoints.
-        - Implementation of Checkpoint and CheckAlive operations.
-        - Performance enhancements by incorporating batch calls, bundling multiple stages together, etc.
-      used:
-        - thing: Helidon
-        - thing: JAX-RS
-        - thing: JAX-WS
-        - thing: Microservices
-        - thing: Kafka
-        - thing: Kubernetes
-        - thing: OCI
-        - thing: Gradle
-        - thing: git
+  positions: 
+    - title: Application Engineer
+      description: Worked on multiple multi-tenant enterprise applications, delivering features in efficient maintainable code using Java.
+      projects:
+        - name: Intelligent Advisor - CX Sales and B2B Service Connector
+          url: https://docs.oracle.com/en/cloud/saas/b2b-service/21b/faiec/integrate-with-intelligent-advisor.html
+          description: Re-architecture of legacy connector between Oracle Intelligent Advisor and CX Sales B2B Service from monolith deployment to a scalable, multi-tenant, cloud native app for performance optimization, using Helidon Microprofile, JAX-RS and JAX-WS frameworks.
+          points:
+            - Implemented containerised mock REST server for integration testing and packaged/deployed to k8 infra with helm.
+            - Developed and maintained Jenkins pipelines to integrate dev workflow with build, static code scan, integration tests, package, publish and deploy to multiple Kubernetes namespaces in Oracle Cloud Infrastructure (OCI).
+            - Implemented a distributed test environment in Kubernetes for PSR testing.
+            - JWT based authentication for REST endpoints.
+            - Implementation of Checkpoint and CheckAlive operations.
+            - Performance enhancements by incorporating batch calls, bundling multiple stages together, etc.
+          used:
+            - thing: Helidon
+            - thing: JAX-RS
+            - thing: JAX-WS
+            - thing: Microservices
+            - thing: Kafka
+            - thing: Kubernetes
+            - thing: OCI
+            - thing: Gradle
+            - thing: git
 
-    - name: Intelligent Advisor adapter for Oracle Integration Cloud
-      url: https://docs.oracle.com/en/cloud/paas/integration-cloud/opa-adapter/understand-intelligent-advisor-oracle-policy-automation-adapter.html
-      description: The Oracle Intelligent Advisor Adapter can be used to develop integrations in Oracle Integration that load and save the data between Intelligent Advisor platform and other applications/services.
-      points:
-        - Implementation of dynamic data loading.
-        - Implementation of adapter Endpoint metrics.
-      used:
-        - thing: Java Connector Architecture
-        - thing: adapter
-        - thing: Gradle
-        - thing: git
+        - name: Intelligent Advisor adapter for Oracle Integration Cloud
+          url: https://docs.oracle.com/en/cloud/paas/integration-cloud/opa-adapter/understand-intelligent-advisor-oracle-policy-automation-adapter.html
+          description: The Oracle Intelligent Advisor Adapter can be used to develop integrations in Oracle Integration that load and save the data between Intelligent Advisor platform and other applications/services.
+          points:
+            - Implementation of dynamic data loading.
+            - Implementation of adapter Endpoint metrics.
+          used:
+            - thing: Java Connector Architecture
+            - thing: adapter
+            - thing: Gradle
+            - thing: git
