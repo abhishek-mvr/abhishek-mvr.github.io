@@ -1,9 +1,9 @@
 - company: Thoughtworks
   url: https://www.thoughtworks.com/
-  time: June 2021 - Present
 
   positions: 
-    - title: Application Developer
+    - title: Senior Application Developer
+      time: September 2022 - Present
       description: Worked on different projects related to a Retail Fulfillment platform serving more than 650 fulfillment centers with more than 250k orders each day. 
       projects:
         - name: Retail Grocery delivery platform
@@ -12,6 +12,23 @@
             - Played a major role in scaling application from serving 36 fulfillment stores to 700+ stores consuming more than 450k order info ( fresh orders and amendments ) daily.
             - Restructured event consumption flows to reduce traffic by 99.5%
             - Redesigned Kafka event consumption flow to nullify consumer lag.
+          used:
+            - thing: couchbase
+            - thing: Kafka
+            - thing: Splunk
+            - thing: Jenkins
+            - thing: AMQP
+            - thing: resilience4J
+            - thing: Spring
+            - thing: Java17
+
+    - title: Application Developer
+      time: June 2021 - September 2022
+      description: Worked on different projects related to a Retail Fulfillment platform serving more than 650 fulfillment centers with more than 250k orders each day. 
+      projects:
+        - name: Retail Grocery delivery platform
+          description: Worked on different projects related to a Retail Fulfillment platform serving more than 650 fulfillment centers with more than 250k orders each day. 
+          points:
             - Feature developments and defect fixes while maintaining operational efficiency.
             - Collaborate to identify performance bottlenecks in APIs, and resolve the same.
             - Developed docker based infra for automation suite.
@@ -27,10 +44,10 @@
 
 - company: Oracle
   url: https://www.oracle.com/
-  time: June 2018 - June 2021
   positions: 
     - title: Application Engineer
       description: Worked on multiple multi-tenant enterprise applications, delivering features in efficient maintainable code using Java.
+      time: June 2018 - June 2021
       projects:
         - name: Intelligent Advisor - CX Sales and B2B Service Connector
           url: https://docs.oracle.com/en/cloud/saas/b2b-service/21b/faiec/integrate-with-intelligent-advisor.html
