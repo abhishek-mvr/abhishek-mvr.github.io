@@ -8,12 +8,13 @@
           <div class="job__company">
             <a href="{{job.url}}" target="_blank">{{job.company}}</a>
           </div>
+          <!-- <div class="job__time">{{job.time}}</div> -->
         </div>
+        <br/>
         {% for position in job.positions %}
         <div class="job__position">
           <div class="job__title">{{position.title}}</div>
           <div class="job__time">{{position.time}}</div>
-          <p class="job__description">{{position.description}}</p>
 
           {% for project in position.projects %}
           <div class="project">

@@ -20,6 +20,7 @@
       margin-bottom: 40px;
     }
     &__title {
+      font-weight: bold;
       margin-bottom: 10px;
     }
     &__time {
@@ -36,22 +37,22 @@
     max-width: 600px;
     margin-bottom: 40px;
     &__name {
-      font-weight: 700;
+      font-weight: 600;
       margin-bottom: 10px;
       cursor: pointer;
       border: none;
       outline: none;
       font-size: .9rem;
-      &:hover {
-        font-size: .95rem;
-      }
-      &:after {
-        content: '\002B';
-        font-weight: 700;
-        float: right;
-        margin-left: 5px;
-        vertical-align: middle;
-      }
+      // &:hover {
+      //   font-size: .95rem;
+      // }
+      // &:after {
+      //   content: '\002B';
+      //   font-weight: 700;
+      //   float: right;
+      //   margin-left: 5px;
+      //   vertical-align: middle;
+      // }
     }
     &__points {
       font-size: 0.9rem;
@@ -79,12 +80,12 @@
     }
     &__content {
       max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.3s ease-out;
+      // overflow: hidden;
+      // transition: max-height 0.3s ease-out;
     }
-    .active:after {
-      content: "\2212";
-    }
+    // .active:after {
+      // content: "\2212";
+    // }
 
   }
 

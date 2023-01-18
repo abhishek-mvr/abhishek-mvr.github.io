@@ -1,12 +1,11 @@
 - company: Thoughtworks
   url: https://www.thoughtworks.com/
+  time: June 2021 - April 2023
 
   positions: 
-    - title: Senior Application Developer
-      time: September 2022 - Present
-      description: Worked on different projects related to a Retail Fulfillment platform serving more than 650 fulfillment centers with more than 250k orders each day. 
+    - title: Senior Application Developer (Sept 2022 - Apr 2023)
       projects:
-        - name: Retail Grocery delivery platform
+        - name: Grocery Delivery Platform
           description: Worked on different projects related to a Retail Fulfillment platform serving more than 650 fulfillment centers with more than 250k orders each day. 
           points:
             - Played a major role in scaling application from serving 36 fulfillment stores to 700+ stores consuming more than 450k order info ( fresh orders and amendments ) daily.
@@ -22,11 +21,9 @@
             - thing: Spring
             - thing: Java17
 
-    - title: Application Developer
-      time: June 2021 - September 2022
-      description: Worked on different projects related to a Retail Fulfillment platform serving more than 650 fulfillment centers with more than 250k orders each day. 
+    - title: Application Developer ( June 2021 - Sept 2022)
       projects:
-        - name: Retail Grocery delivery platform
+        - name: Grocery Delivery Platform
           description: Worked on different projects related to a Retail Fulfillment platform serving more than 650 fulfillment centers with more than 250k orders each day. 
           points:
             - Feature developments and defect fixes while maintaining operational efficiency.
